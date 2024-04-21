@@ -8,5 +8,5 @@ export default defineConfig({
   //     'api':'http://localhost:5173/'
   //   }
   // },
-  plugins: [react()],
+  plugins: [react(),vitePluginRequire.default()],
 })
